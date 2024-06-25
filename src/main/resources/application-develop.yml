@@ -12,5 +12,15 @@ spring:
     password:
     hikari:
       connection-timeout: 300000
+  jpa:
+    hibernate:
+      ddl-auto: create
+      dialect: org.hibernate.dialect.H2Dialect
+    properties:
+      hibernate:
+        jdbc:
+        # show_sql: true
+        format_sql: true
+        use_sql_comments: true
 server:
   port: 8080
