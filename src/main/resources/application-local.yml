@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: ScoreTracker
+server:
+  port: 8080
