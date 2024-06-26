@@ -1,4 +1,4 @@
-package com.example.scoretracker;
+package com.score.tracker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
